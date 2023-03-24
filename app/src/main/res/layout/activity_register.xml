@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/LOGIN"
+        android:text="register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/uss"
+        style="@style/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Nama"
+        android:minHeight="48dp" />
+
+
+    <EditText
+        android:id="@+id/pass"
+        style="@style/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:minHeight="48dp" />
+
+
+    <EditText
+        android:id="@+id/pass2"
+        style="@style/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/address"
+        style="@style/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ADDRESS"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/Age"
+        style="@style/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="AGE"
+        android:minHeight="48dp" />
+
+
+
+    <Button
+        android:id="@+id/btn1"
+        style="@style/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+</LinearLayout>

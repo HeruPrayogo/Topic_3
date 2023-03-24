@@ -1,0 +1,26 @@
+<resources>
+    <style name="username">
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+    <style name="password">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="button1">
+        <item name="backgroundTint">@color/purple_200</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="LOGIN">
+        <item name="android:textColor">@color/purple_500</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="signUp">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>

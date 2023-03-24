@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/LOGIN"
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/uss"
+        style="@style/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:minHeight="48dp" />
+
+
+
+    <EditText
+        android:id="@+id/pass"
+        style="@style/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Umur"
+        android:minHeight="48dp" />
+
+
+    <Button
+        android:id="@+id/button"
+        style="@style/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lOGIN"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+    <Button
+        android:id="@+id/buttonSerializable"
+        style="@style/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATA"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+    <TextView
+        style="@style/signUp"
+        android:text="SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
